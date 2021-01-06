@@ -8,7 +8,7 @@ public class IndexContorller {
     @RequestMapping("/index")
 
     public String index() {
-        System.out.println("index=================");
+
         return "index";
     }
 }
